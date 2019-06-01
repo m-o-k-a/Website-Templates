@@ -1,0 +1,135 @@
+body {
+	/* add background and initialize its properties*/
+	background-image: url("background/bkg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h4 {
+	/* logo box */
+	width: 100%;
+	height: 90%
+  	padding: 10%;
+  	border: 10px solid white;
+  	border-style: double none double none;
+  	margin: auto; 
+  	text-shadow: 1px 1px 2px black; 
+}
+h3 {
+	text-align: center;
+	color: white;
+		width: 100%;
+	height: 90%
+  	padding: 10%;
+  	border: 10px solid white;
+  	border-style: double none double none;
+  	margin: auto; 
+}
+footer {
+	width: 50%;
+	margin: auto; 
+}
+.buttonCollapsible {
+    /* background/border properties for the expandable box */
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+}
+.button {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    opacity: 1;
+    min-height: 100%;
+    width: 100%;
+}
+.content {
+	/* content flexbox */
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  	margin: auto; 
+}
+
+#mainLogo {
+	/* logo box */
+	width: 75%;
+	height: 90%
+  	padding: 10%;
+  	border: 10px solid white;
+  	border-style: dotted dotted none dotted;
+  	margin: auto; 
+}
+.mainLogo {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#main {
+	/* parent flexbox */
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	width: 75%;
+	height: 90%
+  	padding: 10%;
+  	border: 10px solid white;
+  	border-style: none dotted none dotted;
+  	margin: auto; 
+  	background-color: rgba(255,255,255,0.5);
+}
+
+#childMain {
+	/* child of main box */
+	width: 45%;
+  	text-align: center;
+   	color: white;
+   	border-style: solid dotted solid dotted;
+}
+
+.yon {
+	/* adapt size */
+	zoom: 10%;
+}
+.koma {
+	/* koma box */
+	width: 75%;
+	height: 90%
+  	padding: 10%;
+  	zoom: 140%;
+}
+
+/* unique box for all the 10 series of yonkoma */
+.to-1 {
+	border: 4px solid crimson;
+	background-color: rgba(220,20,60,0.5);
+	color: white; 
+	text-align: center;  
+	text-shadow: none;
+	width: 30%;
+}
+.to09 {
+	border: 4px solid aquamarine;
+	background-color: rgba(127,255,212,0.5);
+}
+.to19 {
+	border: 4px solid salmon;
+	background-color: rgba(250,128,114,0.5);
+}
+
+/* visited color */
+a {
+	color: white;
+	text-decoration: none;
+}
+a:link a:hover{
+  color: white;
+}
+a:visited {
+  color: gray;
+}
+.footer:visited {
+	color: white;
+}
